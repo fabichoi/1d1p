@@ -7,7 +7,7 @@ When I don't have enough time to solve problem, I'd just commit with attendance 
 # It started from 2020.09.07 (37th week)
 WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
-37th | DONE |      |      |      |      |      |     
+37th | DONE | DONE |      |      |      |      |     
 38th |      |      |      |      |      |      |     
 39th |      |      |      |      |      |      |     
 40th |      |      |      |      |      |      |     
