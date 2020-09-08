@@ -37,7 +37,7 @@ Temporary Items
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
-.idea/**/usage.statistics.xml
+.idea/
 .idea/**/dictionaries
 .idea/**/shelf
 
@@ -308,3 +308,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,windows,macos,pycharm,visualstudiocode
+/.idea/1d1p.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
