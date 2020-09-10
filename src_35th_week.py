@@ -1,3 +1,14 @@
+
+# boj 12865
+# 평범한 배낭
+
+def solve():
+    pass
+
+print(solve)
+
+
+'''
 # boj 1904
 # 01타일
 
@@ -13,3 +24,6 @@ def solve(n):
     return c
 
 print(solve(int(input())))
+
+'''
+
