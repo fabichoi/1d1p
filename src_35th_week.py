@@ -3,9 +3,21 @@
 # 평범한 배낭
 
 def solve():
-    pass
+    ws = [3,4,1,2,3]
+    ps = [2,3,2,3,6]
 
-print(solve)
+    maxw = 10
+
+    def knapsack(n, w):
+        if w > maxw:
+            return -1
+        if n >= len(ws):
+            return 0
+        return max(knapsack(n+1, w), knapsack(n+1, w+ws[n]) + ps[n])
+
+    knapsack(0, 0)
+
+print(solve())
 
 
 '''
