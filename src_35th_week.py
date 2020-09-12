@@ -1,24 +1,26 @@
-
 # boj 12865
 # 평범한 배낭
 
-def solve():
-    ws = [3,4,1,2,3]
-    ps = [2,3,2,3,6]
+def solve(n,k,w,v):
+    dp = [[0 for _ in range(k+1)] for __ in range(n+1)]
+    ret = 0
 
-    maxw = 10
+    for i in range(n):
+        for j in range(k+1):
+            if j + w[i] <= k:
+                dp[i + 1][j + w[i]] = max(dp[i + 1][j + w[i]], dp[i][j] + v[i])
+                ret = max(dp[i + 1][j + w[i]], ret)
 
-    def knapsack(n, w):
-        if w > maxw:
-            return -1
-        if n >= len(ws):
-            return 0
-        return max(knapsack(n+1, w), knapsack(n+1, w+ws[n]) + ps[n])
+    return ret
 
-    knapsack(0, 0)
-
-print(solve())
-
+n,k = map(lambda x:int(x), input().split(' '))
+w = []
+s = []
+for i in range(n):
+    a, b = map(lambda x:int(x), input().split(' '))
+    w.append(a)
+    s.append(b)
+print(solve(n,k,w,s))
 
 '''
 # boj 1904
@@ -38,4 +40,3 @@ def solve(n):
 print(solve(int(input())))
 
 '''
-
