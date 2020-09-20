@@ -8,7 +8,7 @@ When I don't have enough time to solve problem, I'd just commit with attendance 
 WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
 37th | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-38th |      |      | DONE | DONE |      |      |     
+38th |      |      | DONE | DONE |      |      | DONE
 39th |      |      |      |      |      |      |     
 40th |      |      |      |      |      |      |     
 41st |      |      |      |      |      |      |     
