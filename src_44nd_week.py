@@ -1,5 +1,51 @@
-# boj 10164
+# boj 1012
+'''
+import sys
+sys.setrecursionlimit(10 ** 6)
 
+if __name__ == "__main__":
+    ts = int(input())
+
+    for t in range(ts):
+        m, n, k = map(int, input().split(' '))
+        board = [[0 for _ in range(m)] for __ in range(n)]
+        visited = [[0 for _ in range(m)] for __ in range(n)]
+
+        for _ in range(k):
+            a, b = map(int, input().split(' '))
+            board[b][a] = 1
+
+        cnt = 1
+
+
+        def dfs(x, y):
+            if x < 0 or x >= m or y < 0 or y >= n:
+                return
+            if board[y][x] == 0:
+                return
+            if visited[y][x] != 0:
+                return
+
+            dx = [-1, 0, 1, 0]
+            dy = [0, -1, 0, 1]
+
+            visited[y][x] = cnt
+
+            for i in range(4):
+                dfs(x + dx[i], y + dy[i])
+
+            return 1
+
+
+        for y in range(n):
+            for x in range(m):
+                if dfs(x, y) is not None:
+                    cnt += 1
+
+        print(cnt - 1)
+'''
+# boj 10164
+'''
 if __name__ == "__main__":
     n, m, k = map(int, input().split(' '))
     nm = 16
@@ -20,7 +66,7 @@ if __name__ == "__main__":
     else:
         print(board[n - ty - 1][m - tx - 1] * board[ty][tx])
 
-
+'''
 #boj 2583
 '''
 import sys
