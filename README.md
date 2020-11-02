@@ -15,7 +15,7 @@ WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 42nd |      |      | DONE |      |      |      | DONE
 43rd |      | DONE | DONE |      |      |      | DONE
 44th | DONE |      | DONE | DONE | DONE |      | DONE
-45th |      |      |      |      |      |      |     
+45th | DONE |      |      |      |      |      |     
 46th |      |      |      |      |      |      |     
 47th |      |      |      |      |      |      |     
 48th |      |      |      |      |      |      |     
