@@ -1,3 +1,56 @@
+#boj 1058
+
+'''
+if __name__ == "__main__":
+    n = int(input())
+    rel = [[0 for _ in range(n)] for __ in range(n)]
+    for i in range(n):
+        ar = input()
+        for j in range(n):
+            if i == j:
+                continue
+            if ar[j] == "Y":
+                rel[i][j] = 1
+                rel[j][i] = 1
+
+    res = 0
+
+    for i in range(n):
+        q = []
+        visited = [0 for _ in range(n)]
+        visited[i] = 1
+        cnt = 0
+        depth = 0
+
+        for j in range(n):
+            if i != j and visited[j] == 0 and rel[i][j] == 1:
+                q.append([j, depth + 1])
+
+        while True:
+            if len(q) < 1:
+                break
+
+            cur, depth = q.pop(0)
+            if depth > 2:
+                continue
+
+            if visited[cur] != 0:
+                continue
+
+            cnt += 1
+            visited[cur] = 1
+
+            for j in range(n):
+                if cur == j:
+                    continue
+                if rel[cur][j] == 1 and visited[j] == 0:
+                    q.append([j, depth + 1])
+
+        res = max(res, cnt)
+
+    print(res)
+'''
+
 #boj 2644
 
 '''
