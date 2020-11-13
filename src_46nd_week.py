@@ -1,3 +1,54 @@
+#boj 16395
+'''
+if __name__ == "__main__":
+    n, k = map(int, input().split(' '))
+    nn = kk = 1
+    for i in range(n-1, n-k, -1):
+        nn *= i
+    for i in range(1, k):
+        kk *= i
+    print(nn//kk)
+'''
+
+#boj 14916
+'''
+import sys
+sys.setrecursionlimit(10**6)
+
+if __name__ == "__main__":
+    n = int(input())
+
+    coin = [-1 for _ in range(100001)]
+    coin[2] = coin[5] = 1
+
+    def solve(m):
+        if m < 0:
+            return 987654321
+        if coin[m] != -1:
+            return coin[m]
+
+        coin[m] = min(solve(m-2), solve(m-5)) + 1
+        return coin[m]
+
+    solve(n)
+    coin[1] = coin[3] = -1
+    print(coin[n])
+'''
+
+#boj 14697
+'''
+if __name__ == "__main__":
+    a, b, c, n = map(int, input().split(' '))
+    res = 0
+    for i in range(n // a + 1):
+        for j in range(n // b + 1):
+            for k in range(n // c + 1):
+                if i * a + j * b + k * c == n:
+                    res = 1
+    print(res)
+'''
+
+
 #boj 14620
 '''
 import sys
