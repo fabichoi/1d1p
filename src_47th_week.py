@@ -1,5 +1,20 @@
+# test recursion
+'''
+if __name__ == "__main__":
+
+    def printBin(n):
+        if n < 2:
+            print(n)
+        else:
+            printBin(n//2)
+            print(n%2)
+
+    printBin(11)
+'''
+
 # boj 11729
 
+'''
 if __name__ == "__main__":
     n = int(input())
 
@@ -15,6 +30,7 @@ if __name__ == "__main__":
 
     print(2 ** n - 1)
     hanoi(n, 1, 2, 3)
+'''
 
 # boj 7576
 '''
