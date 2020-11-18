@@ -1,3 +1,15 @@
+# boj 11725
+
+if __name__ == "__main__":
+    n = int(input())
+    tree = [[] for _ in range(n+1)]
+    for i in range(n-1):
+        n, m = map(int, input().split(' '))
+        tree[n].append(m)
+        tree[m].append(n)
+
+    print(tree)
+
 # test recursion
 '''
 if __name__ == "__main__":
