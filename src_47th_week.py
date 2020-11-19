@@ -1,12 +1,31 @@
 # boj 11725
 
+from collections import deque
+
 if __name__ == "__main__":
     n = int(input())
-    tree = [[] for _ in range(n+1)]
-    for i in range(n-1):
+    tree = [[] for _ in range(n + 1)]
+    res = [for _ in range(n + 1)]
+    for i in range(n - 1):
         n, m = map(int, input().split(' '))
         tree[n].append(m)
         tree[m].append(n)
+
+    qu = deque()
+
+    while tree[1]:
+        t = tree[1].pop(0)
+        res[t] = 1
+        qu.append(t)
+
+    while qu:
+        q = qu.popleft()
+        while tree[q]:
+            t = tree[q].pop(0)
+            res[t] = q
+            qu.append(t)
+
+
 
     print(tree)
 
