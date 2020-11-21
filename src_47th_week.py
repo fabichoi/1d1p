@@ -5,11 +5,13 @@ from collections import deque
 if __name__ == "__main__":
     n = int(input())
     tree = [[] for _ in range(n + 1)]
-    res = [for _ in range(n + 1)]
+    res = [0 for _ in range(n + 1)]
+    visited = [0 for _ in range(n + 1)]
+
     for i in range(n - 1):
-        n, m = map(int, input().split(' '))
-        tree[n].append(m)
-        tree[m].append(n)
+        a, b = map(int, input().split(' '))
+        tree[a].append(b)
+        tree[b].append(a)
 
     qu = deque()
 
@@ -17,17 +19,19 @@ if __name__ == "__main__":
         t = tree[1].pop(0)
         res[t] = 1
         qu.append(t)
+        visited[1] = 1
 
     while qu:
         q = qu.popleft()
         while tree[q]:
             t = tree[q].pop(0)
-            res[t] = q
-            qu.append(t)
+            if visited[t] == 0:
+                res[t] = q
+                qu.append(t)
+        visited[q] = 1
 
-
-
-    print(tree)
+    for i in range(2, n + 1):
+        print(res[i])
 
 # test recursion
 '''
