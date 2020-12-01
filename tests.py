@@ -1,6 +1,7 @@
 import unittest
-from src_49th_week import boj15953
 
+'''
+from src_49th_week import boj15953
 class testsuite(unittest.TestCase):
     def testcase_001(self):
         s = boj15953.solve(self, 8, 4)
@@ -23,6 +24,18 @@ class testsuite(unittest.TestCase):
     def testcase_007(self):
         s = boj15953.solve(self, 22, 32)
         self.assertEqual(0, s)
+'''
+from src_49th_week import boj2851
+
+
+class testsuite(unittest.TestCase):
+    def testcase_001(self):
+        res = boj2851.solve([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+        self.assertEqual(100, res)
+
+    def testcase_002(self):
+        res = boj2851.solve([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+        self.assertEqual(100, res)
 
 
 if __name__ == "__main__":
