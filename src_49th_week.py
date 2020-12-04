@@ -1,5 +1,30 @@
 # 49th week
 
+#cofo #1
+
+
+if __name__ == "__main__":
+    for _ in range(int(input())):
+        line = [0 for __ in range(101)]
+        res = 0
+        b, l = map(int, input().split(' '))
+        bot = list(map(int, input().split(' ')))
+        left = list(map(int, input().split(' ')))
+        for bb in bot:
+            line[bb] += 1
+        for ll in left:
+            line[ll] += 1
+        for i in range(1, 101):
+            if line[i] > 1:
+                res += 1
+        print(res)
+
+
+
+
+
+
+
 '''
 class boj15953:
 
@@ -32,6 +57,7 @@ if __name__ == "__main__":
         print(boj15953.solve(_, a, b))
 '''
 
+'''
 class boj2851:
 
     def solve(ar):
@@ -51,7 +77,7 @@ class boj2851:
         print(res)
         return res
 
-
+'''
 '''
 if __name__ == "__main__":
     print(boj2851.solve([1,2]))
