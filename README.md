@@ -20,6 +20,6 @@ WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 47th | DONE | DONE | DONE | DONE |      | DONE | DONE
 48th | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 49th | DONE | DONE | DONE | DONE | DONE |      | DONE
-50th | DONE | DONE |      |      |      |      |     
+50th | DONE | DONE | DONE |      |      |      |     
 51st |      |      |      |      |      |      |     
 52nd |      |      |      |      |      |      |     
