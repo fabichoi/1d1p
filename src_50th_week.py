@@ -1,7 +1,7 @@
 # 50th week
 
 # boj1173
-
+'''
 if __name__ == "__main__":
     n, m, M, T, R = map(int, input().split(' '))
     cnt = 0
@@ -22,3 +22,29 @@ if __name__ == "__main__":
 
             cnt += 1
         print(cnt)
+'''
+
+class boj1236:
+
+    def solve(self, n, m, ar):
+        cntX, cntY = 0,0
+        for i in range(n):
+            for j in range(m):
+                if ar[i][j] == 'X':
+                    cntX += 1
+                    continue
+
+        for i in range(m):
+            for j in range(n):
+                if ar[j][i] == 'X':
+                    cntY += 1
+
+        return max(n-cntY, m-cntX)
+
+if __name__ == "__main__":
+    n, m = map(int, input().split(' '))
+    ar = []
+    for _ in range(n):
+        ar.append(input())
+
+    print(boj1236.solve('', n, m, ar))
