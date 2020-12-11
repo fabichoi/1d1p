@@ -1,5 +1,17 @@
 import unittest
 
+from src_50th_week import boj1236
+
+
+class testsuite(unittest.TestCase):
+    def testcase_001(self):
+        res = boj1236.solve(self, 4, 4, ["....", "....", "....", "...."])
+        self.assertEqual(4, res)
+
+
+if __name__ == "__main__":
+    unittest.main()
+
 '''
 from src_49th_week import boj15953
 class testsuite(unittest.TestCase):
@@ -25,6 +37,8 @@ class testsuite(unittest.TestCase):
         s = boj15953.solve(self, 22, 32)
         self.assertEqual(0, s)
 '''
+
+'''
 from src_49th_week import boj2851
 
 
@@ -40,3 +54,4 @@ class testsuite(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+'''
