@@ -24,22 +24,29 @@ if __name__ == "__main__":
         print(cnt)
 '''
 
+
 class boj1236:
 
     def solve(self, n, m, ar):
-        cntX, cntY = 0,0
+        cntX, cntY = 0, 0
         for i in range(n):
+            flagY = True
             for j in range(m):
                 if ar[i][j] == 'X':
-                    cntX += 1
-                    continue
+                    flagY = False
+            if flagY:
+                cntY += 1
 
         for i in range(m):
+            flagX = True
             for j in range(n):
                 if ar[j][i] == 'X':
-                    cntY += 1
+                    flagX = False
+            if flagX:
+                cntX += 1
 
-        return max(n-cntY, m-cntX)
+        return max(cntY, cntX)
+
 
 if __name__ == "__main__":
     n, m = map(int, input().split(' '))
