@@ -71,3 +71,19 @@ if __name__ == "__main__":
         print(''.join(map(str,res)))
 
 '''
+
+# boj2294
+
+if __name__ == "__main__":
+    n, k = map(int, input().split(' '))
+    max_value = k+1
+    coin = []
+    dp = [0] + [max_value for _ in range(k)]
+    for _ in range(n):
+        coin.append(int(input()))
+
+    for i in range(n):
+        for j in range(coin[i], k+1):
+            dp[j] = min(dp[j], dp[j - coin[i]] + 1)
+
+    print(dp[k] if dp[k] != max_value else -1)
