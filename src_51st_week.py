@@ -73,7 +73,7 @@ if __name__ == "__main__":
 '''
 
 # boj2294
-
+'''
 if __name__ == "__main__":
     n, k = map(int, input().split(' '))
     max_value = k+1
@@ -87,3 +87,48 @@ if __name__ == "__main__":
             dp[j] = min(dp[j], dp[j - coin[i]] + 1)
 
     print(dp[k] if dp[k] != max_value else -1)
+'''
+
+# cofo 691 div2
+
+'''
+if __name__ == "__main__":
+    for _ in range(int(input())):
+        n = int(input())
+        a = input()
+        b = input()
+        cnt_a = 0
+        cnt_b = 0
+        for i in range(n):
+            if int(a[i]) > int(b[i]):
+                cnt_a += 1
+            elif int(a[i]) < int(b[i]):
+                cnt_b += 1
+            else:
+                continue
+        if cnt_a > cnt_b:
+            print("RED")
+        elif cnt_a < cnt_b:
+            print("BLUE")
+        else:
+            print("EQUAL")
+'''
+
+if __name__ == "__main__":
+    dp = [0, 4, 4] + [0 for _ in range(999)]
+    for i in range(3, 1001):
+        dp[i] = dp[i-2] * 2
+
+    n = int(input())
+    if n % 2 == 0:
+        if n <= 2:
+            print(dp[n])
+        else:
+            print(dp[n] + 1)
+    else:
+        res = 0
+        for i in range(1, n+1):
+            if i % 2 == 0:
+                continue
+            res += dp[i]
+        print(res)
