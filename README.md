@@ -28,7 +28,7 @@ WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 # 2021
 WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
-01st | DONE | DONE |      |      |      |      |     
+01st | DONE | DONE | DONE |      |      |      |     
 02nd |      |      |      |      |      |      |     
 03rd |      |      |      |      |      |      |     
 04th |      |      |      |      |      |      |     
