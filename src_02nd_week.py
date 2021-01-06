@@ -24,20 +24,11 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     for _ in range(int(input())):
         n = int(input())
-        a = sorted(list(map(int,input().split(' '))))
-        while len(a) > 2:
-            first = a.pop()
-            second = a.pop()
-            if first != second:
-                a.append(first)
-
-        if len(a) == 1:
+        a = list(map(int,input().split(' ')))
+        if (a.count(1) % 2) or (a.count(2) % 2):
             print("NO")
         else:
-            if(a[0] == a[1]):
-                print("YES")
-            else:
-                print("NO")
+            print("YES")
 
 
 
