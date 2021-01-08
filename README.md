@@ -29,7 +29,7 @@ WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
 01st | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-02nd | DONE | DONE | DONE | DONE | DONE |      |     
+02nd | DONE | DONE | DONE | DONE | DONE | DONE |     
 03rd |      |      |      |      |      |      |     
 04th |      |      |      |      |      |      |     
 05th |      |      |      |      |      |      |     
