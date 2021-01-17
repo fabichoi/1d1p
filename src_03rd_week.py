@@ -1,5 +1,5 @@
 # boj 2170
-
+'''
 from sys import stdin
 
 if __name__ == "__main__":
@@ -26,3 +26,28 @@ if __name__ == "__main__":
 
     res += mb - ma
     print(res)
+'''
+
+# BOJ 7571
+
+from sys import stdin
+
+if __name__ == "__main__":
+    n, m = map(int, stdin.readline().split(' '))
+    x = [0 for _ in range(m)]
+    y = [0 for _ in range(m)]
+    mx, my = 0, 0
+    res = 0
+    for i in range(m):
+        x[i], y[i] = map(int, stdin.readline().split(' '))
+    x.sort()
+    y.sort()
+
+    mx = x[m // 2]
+    my = y[m // 2]
+    for i in range(m):
+        res += abs(x[i]-mx) + abs(y[i]-my)
+
+    print(res)
+
+
