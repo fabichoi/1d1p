@@ -43,6 +43,7 @@ if __name__ == "__main__":
         print(''.join(a))
 '''
 
+'''
 from sys import stdin
 
 if __name__ == "__main__":
@@ -74,6 +75,59 @@ if __name__ == "__main__":
                 break
 
         print(res1 * res2)
+'''
 
+'''
+if __name__ == "__main__":
+    tt = []
+    for _ in range(int(input())):
+        a, b = input().split(' ')
+        a = max(int(a[:2]) * 60 + int(a[2:4]) - 10, 600)
+        b = min(int(b[:2]) * 60 + int(b[2:4]) + 10, 1320)
+        tt.append([a,b])
 
+    tt.append([0, 600])
+    tt.append([1320, 1440])
+    tt.sort()
 
+    mx, last_ended = 0, 600
+    for start, end in tt:
+        mx = max(mx, start - last_ended)
+        last_ended = max(last_ended, end)
+
+    print(mx)
+
+'''
+
+if __name__ == "__main__":
+    tt = []
+    for _ in range(int(input())):
+        a, b = input().split(' ')
+        a = max(int(a[:2]) * 60 + int(a[2:4]) - 10, 600)
+        b = min(int(b[:2]) * 60 + int(b[2:4]) + 10, 1320)
+        tt.append([a,b])
+
+    tt.sort()
+
+    r = []
+    r.append(tt.pop(0))
+    index = 0
+
+    while len(tt) > 0:
+        t = tt.pop(0)
+        if r[index][1] >= t[1] and r[index][0] <= t[0]:
+            continue
+
+        if r[index][1] >= t[0]:
+            r[index][1] = t[1]
+        else:
+            index += 1
+            r.append(t)
+
+    r = [[600, 600]] + r + [[1320, 1320]]
+    m = 0
+    for i in range(1, len(r)):
+        p = r[i][0] - r[i-1][1]
+        m = max(m, p)
+
+    print(m)
