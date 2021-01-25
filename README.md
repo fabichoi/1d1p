@@ -32,7 +32,7 @@ WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 02nd | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 03rd | DONE | DONE |      | DONE | DONE | DONE | DONE
 04th | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-05th |      |      |      |      |      |      |     
+05th | DONE |      |      |      |      |      |     
 06th |      |      |      |      |      |      |     
 07th |      |      |      |      |      |      |     
 08th |      |      |      |      |      |      |     
