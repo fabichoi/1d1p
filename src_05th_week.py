@@ -3,7 +3,7 @@ r, b = map(int, input().split(' '))
 w = 0
 for l in range(1, b+1):
     if b % l != 0:
-        continue    
+        continue
     w = b // l
     sum = w * 2 + l * 2 + 4
     if sum == r:
@@ -22,27 +22,38 @@ for _ in range(t):
 '''
 
 import sys
-sys.setrecursionlimit(10**9)
+
+sys.setrecursionlimit(10 ** 9)
 
 if __name__ == "__main__":
     t, w = map(int, input().split(' '))
-    p = [[0, 0]]
-    for _ in range(t):
-        pp = int(input()) - 1
-        p.append([1, 0] if pp == 0 else [0, 1])
+    p = [0 for _ in range(t + 1)]
+    for i in range(1, t + 1):
+        p[i] = int(input())
 
-    def solve(n, s, c):
-        if n == 0:
-            return 0
-        if c == 0:
-            return p[n][s]
+    dp = [[[0, 0] for _ in range(w + 1)] for __ in range(t + 1)]
 
-        rev_s = 0 if s == 1 else 1
+    for i in range(1, t + 1):
+        dp[i][0][0] = dp[i - 1][0][0]
+        dp[i][1][1] = max(dp[i - 1][1][1], dp[i - 1][0][0])
+        if p[i] == 1:
+            dp[i][0][0] += 1
+        else:
+            dp[i][1][1] += 1
 
-        cur_side = solve(n - 1, s, c) + p[n][s]
-        rev_side = solve(n - 1, rev_s, c - 1) + p[n][rev_s]
+    for i in range(2, t + 1):
+        for j in range(1, w + 1):
+            dp[i][j][0] = max(dp[i - 1][j - 1][1], dp[i - 1][j][0])
+            dp[i][j][1] = max(dp[i - 1][j - 1][0], dp[i - 1][j][1])
+            if p[i] == 1:
+                dp[i][j][0] += 1
+            else:
+                dp[i][j][1] += 1
 
-        return max(cur_side, rev_side)
-
-    print(solve(t, 0, w))
+    result = 0
+    for j in range(w+1):
+        for k in range(2):
+            if dp[t][j][k] > result:
+                result = dp[t][j][k]
+    print(result)
 
