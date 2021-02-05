@@ -1,3 +1,17 @@
+
+n = int(input())
+dp = [i for i in range(50001)]
+l = int(50000**0.5) + 1
+s = [i*i for i in range(l+1)]
+
+for j in range(2, l):
+    for i in range(s[j], n+1):
+        if i - s[j] < 0 :
+            break
+        dp[i] = min(dp[i-s[j]]+1, dp[i])
+
+print(dp[n])
+
 '''
 def solve(n):
     if int(n ** 0.5) ** 2 == n:
