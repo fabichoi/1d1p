@@ -1,5 +1,39 @@
 # python file for week of 9 in 2021
 
+import sys
+for _ in range(int(input())):
+    a, b = map(int, sys.stdin.readline().split(' '))
+    print('YES') if bin(a & (b-a)) == bin(b-a) else print('NO')
+
+
+'''
+import sys
+
+n, q = map(int, sys.stdin.readline().split(' '))
+ar = [-1] + list(map(int, sys.stdin.readline().split(' ')))
+
+n1 = ar.count(1)
+n0 = ar.count(0)
+
+for _ in range(q):
+    t, k = map(int, sys.stdin.readline().split(' '))
+    if t == 1:
+        if ar[k] == 1:
+            ar[k] = 0
+            n0 += 1
+            n1 -= 1
+        else:
+            ar[k] = 1
+            n0 -= 1
+            n1 += 1
+    else:
+        if k > n1:
+            print(0)
+        else:
+            print(1)
+
+'''
+
 '''
 def get_over_num(n, m):
     a = int(n % m)
