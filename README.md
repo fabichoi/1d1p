@@ -20,7 +20,7 @@ WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 11st | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 12nd |      | DONE | DONE | DONE | DONE | DONE | DONE
 13rd | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-14th | DONE | DONE |      |      |      |      |     
+14th | DONE | DONE | DONE |      |      |      |     
 15th |      |      |      |      |      |      |     
 16th |      |      |      |      |      |      |     
 17th |      |      |      |      |      |      |     
