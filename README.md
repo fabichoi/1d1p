@@ -22,43 +22,43 @@ WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 13rd | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 14th | DONE | DONE | DONE | DONE | DONE | DONE |     
 15th | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-16th |      |      |      |      |      |      |     
-17th |      |      |      |      |      |      |     
-18th |      |      |      |      |      |      |     
-19th |      |      |      |      |      |      |     
-20th |      |      |      |      |      |      |     
-21st |      |      |      |      |      |      |     
-22nd |      |      |      |      |      |      |     
-23rd |      |      |      |      |      |      |     
-24th |      |      |      |      |      |      |     
-25th |      |      |      |      |      |      |     
-26th |      |      |      |      |      |      |     
-27th |      |      |      |      |      |      |     
-28th |      |      |      |      |      |      |     
-29th |      |      |      |      |      |      |     
-30th |      |      |      |      |      |      |     
-31st |      |      |      |      |      |      |     
-32nd |      |      |      |      |      |      |     
-33rd |      |      |      |      |      |      |     
-34th |      |      |      |      |      |      |     
-35th |      |      |      |      |      |      |     
-36th |      |      |      |      |      |      |     
-37th |      |      |      |      |      |      |     
-38th |      |      |      |      |      |      |     
-39th |      |      |      |      |      |      |     
-40th |      |      |      |      |      |      |     
-41st |      |      |      |      |      |      |     
-42nd |      |      |      |      |      |      |     
-43rd |      |      |      |      |      |      |     
-44th |      |      |      |      |      |      |     
-45th |      |      |      |      |      |      |     
-46th |      |      |      |      |      |      |     
-47th |      |      |      |      |      |      |     
-48th |      |      |      |      |      |      |     
-49th |      |      |      |      |      |      |     
-50th |      |      |      |      |      |      |     
-51st |      |      |      |      |      |      |     
-52nd |      |      |      |      |      |      |     
+[16th](./2021/16th/README.md) | DONE |      |      |      |      |      |     
+[17th](./2021/17th/README.md) |      |      |      |      |      |      |     
+[18th](./2021/18th/README.md) |      |      |      |      |      |      |     
+[19th](./2021/19th/README.md) |      |      |      |      |      |      |     
+[20th](./2021/20th/README.md) |      |      |      |      |      |      |     
+[21st](./2021/21st/README.md) |      |      |      |      |      |      |     
+[22nd](./2021/22nd/README.md) |      |      |      |      |      |      |     
+[23rd](./2021/23rd/README.md) |      |      |      |      |      |      |     
+[24th](./2021/24th/README.md) |      |      |      |      |      |      |     
+[25th](./2021/25th/README.md) |      |      |      |      |      |      |     
+[26th](./2021/26th/README.md) |      |      |      |      |      |      |     
+[27th](./2021/27th/README.md) |      |      |      |      |      |      |     
+[28th](./2021/28th/README.md) |      |      |      |      |      |      |     
+[29th](./2021/29th/README.md) |      |      |      |      |      |      |     
+[30th](./2021/30th/README.md) |      |      |      |      |      |      |     
+[31st](./2021/31st/README.md) |      |      |      |      |      |      |     
+[32nd](./2021/32nd/README.md) |      |      |      |      |      |      |     
+[33rd](./2021/33rd/README.md) |      |      |      |      |      |      |     
+[34th](./2021/34th/README.md) |      |      |      |      |      |      |     
+[35th](./2021/35th/README.md) |      |      |      |      |      |      |     
+[36th](./2021/36th/README.md) |      |      |      |      |      |      |     
+[37th](./2021/37th/README.md) |      |      |      |      |      |      |     
+[38th](./2021/38th/README.md) |      |      |      |      |      |      |     
+[39th](./2021/39th/README.md) |      |      |      |      |      |      |     
+[40th](./2021/40th/README.md) |      |      |      |      |      |      |     
+[41st](./2021/41st/README.md) |      |      |      |      |      |      |     
+[42nd](./2021/42nd/README.md) |      |      |      |      |      |      |     
+[43rd](./2021/43rd/README.md) |      |      |      |      |      |      |     
+[44th](./2021/44th/README.md) |      |      |      |      |      |      |     
+[45th](./2021/45th/README.md) |      |      |      |      |      |      |     
+[46th](./2021/46th/README.md) |      |      |      |      |      |      |     
+[47th](./2021/47th/README.md) |      |      |      |      |      |      |     
+[48th](./2021/48th/README.md) |      |      |      |      |      |      |     
+[49th](./2021/49th/README.md) |      |      |      |      |      |      |     
+[50th](./2021/50th/README.md) |      |      |      |      |      |      |     
+[51st](./2021/51st/README.md) |      |      |      |      |      |      |     
+[52nd](./2021/52nd/README.md) |      |      |      |      |      |      |     
 
 ------------------------------------------------------
 
