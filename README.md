@@ -24,7 +24,7 @@ WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 [15th](./2021/15th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [16th](./2021/16th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [17th](./2021/17th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-[18th](./2021/18th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE |     
+[18th](./2021/18th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [19th](./2021/19th/README.md) |      |      |      |      |      |      |     
 [20th](./2021/20th/README.md) |      |      |      |      |      |      |     
 [21st](./2021/21st/README.md) |      |      |      |      |      |      |     
