@@ -37,7 +37,7 @@ WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 [28th](./2021/28th/README.md) | DONE | DONE | DONE | DONE |      | DONE | DONE
 [29th](./2021/29th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [30th](./2021/30th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-[31st](./2021/31st/README.md) | DONE | DONE | DONE | DONE | DONE | DONE |     
+[31st](./2021/31st/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [32nd](./2021/32nd/README.md) |      |      |      |      |      |      |     
 [33rd](./2021/33rd/README.md) |      |      |      |      |      |      |     
 [34th](./2021/34th/README.md) |      |      |      |      |      |      |     
