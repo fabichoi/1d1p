@@ -3,6 +3,7 @@ Solving a problem per a day. <br>
 If I could solve a dp(dynamic programming) problem, I'd solved it. <br>
 But If I couldn't do that, I'd be solving the problem again without previous source. <br> 
 When I don't have enough time to solve problem, I'd just commit with attendance book. <br>
+Master branch will be released every sunday. <br>
 
 # 2021
 WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
