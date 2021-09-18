@@ -12,7 +12,22 @@ def minCoins(coin, n, s):
                 result = temp + 1
     return result
 
+MAX_INT = 9876543210
+
+def minCoins_dp(coin, n, s):
+    ar = [MAX_INT for _ in range(s+1)]
+    ar[0] = 0
+
+    for i in range(1, s+1):
+        for j in range(n):
+            if coin[j] <= i:
+                temp = ar[i - coin[j]]
+                if temp != MAX_INT and temp + 1 < ar[i]:
+                    ar[i] = temp + 1
+
+    return ar[s]
+
 coin = list(map(int, input().split()))
 s = int(input())
 n = len(coin)
-print(minCoins(coin, n, s))
+print(minCoins_dp(coin, n, s))
