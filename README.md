@@ -50,7 +50,7 @@ WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 [40th](./2021/40th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [41st](./2021/41st/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE 
 [42nd](./2021/42nd/README.md) | DONE |      | DONE | DONE | DONE | DONE | DONE
-[43rd](./2021/43rd/README.md) |      | 0158 | 0261 | DONE | DONE |      |     
+[43rd](./2021/43rd/README.md) |      | 0158 | 0261 | DONE | DONE | DONE |     
 [44th](./2021/44th/README.md) |      |      |      |      |      |      |     
 [45th](./2021/45th/README.md) |      |      |      |      |      |      |     
 [46th](./2021/46th/README.md) |      |      |      |      |      |      |     
