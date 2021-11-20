@@ -54,7 +54,7 @@ WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 [44th](./2021/44th/README.md) | DONE | DONE | DONE |      |      | DONE | DONE
 [45th](./2021/45th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [46th](./2021/46th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-[47th](./2021/47th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE |     
+[47th](./2021/47th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
 [48th](./2021/48th/README.md) |      |      |      |      |      |      |     
 [49th](./2021/49th/README.md) |      |      |      |      |      |      |     
 [50th](./2021/50th/README.md) |      |      |      |      |      |      |     
