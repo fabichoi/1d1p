@@ -60,7 +60,7 @@ WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
 [50th](./2021/50th/README.md) |      | DONE | DONE | DONE | DONE | DONE | DONE
 [51st](./2021/51st/README.md) | DONE | DONE | DONE | DONE | DONE |      | DONE
 [52nd](./2021/52nd/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE
-[53rd](./2021/53nd/README.md) | DONE | DONE | DONE |      |      |      |     
+[53rd](./2021/53nd/README.md) | DONE | DONE | DONE |      | DONE |
 
 ------------------------------------------------------
 
