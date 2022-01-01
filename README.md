@@ -6,61 +6,61 @@ When I don't have enough time to solve problem, I'd just commit with attendance 
 Master branch will be released every sunday. <br>
 
 # 2022
-WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN
-----                          | ---- | ---- | ---- | ---- | ---- | ---- | ----
-[01st](./2022/01st/README.md) |      |      |      |      |      |      |     
-[02nd](./2022/02nd/README.md) |      |      |      |      |      |      |     
-[03rd](./2022/03rd/README.md) |      |      |      |      |      |      |     
-[04th](./2022/04th/README.md) |      |      |      |      |      |      |     
-[05th](./2022/05th/README.md) |      |      |      |      |      |      |     
-[06th](./2022/06th/README.md) |      |      |      |      |      |      |     
-[07th](./2022/07th/README.md) |      |      |      |      |      |      |      
-[08th](./2022/08th/README.md) |      |      |      |      |      |      |     
-[09th](./2022/09th/README.md) |      |      |      |      |      |      |     
-[10th](./2022/10th/README.md) |      |      |      |      |      |      |     
-[11st](./2022/11st/README.md) |      |      |      |      |      |      |     
-[12nd](./2022/12nd/README.md) |      |      |      |      |      |      |     
-[13rd](./2022/13rd/README.md) |      |      |      |      |      |      |     
-[14th](./2022/14th/README.md) |      |      |      |      |      |      |     
-[15th](./2022/15th/README.md) |      |      |      |      |      |      |     
-[16th](./2022/16th/README.md) |      |      |      |      |      |      |     
-[17th](./2022/17th/README.md) |      |      |      |      |      |      |     
-[18th](./2022/18th/README.md) |      |      |      |      |      |      |     
-[19th](./2022/19th/README.md) |      |      |      |      |      |      |     
-[20th](./2022/20th/README.md) |      |      |      |      |      |      |     
-[21st](./2022/21st/README.md) |      |      |      |      |      |      |     
-[22nd](./2022/22nd/README.md) |      |      |      |      |      |      |     
-[23rd](./2022/23rd/README.md) |      |      |      |      |      |      |     
-[24th](./2022/24th/README.md) |      |      |      |      |      |      |     
-[25th](./2022/25th/README.md) |      |      |      |      |      |      |     
-[26th](./2022/26th/README.md) |      |      |      |      |      |      |     
-[27th](./2022/27th/README.md) |      |      |      |      |      |      |     
-[28th](./2022/28th/README.md) |      |      |      |      |      |      |     
-[29th](./2022/29th/README.md) |      |      |      |      |      |      |     
-[30th](./2022/30th/README.md) |      |      |      |      |      |      |     
-[31st](./2022/31st/README.md) |      |      |      |      |      |      |     
-[32nd](./2022/32nd/README.md) |      |      |      |      |      |      |     
-[33rd](./2022/33rd/README.md) |      |      |      |      |      |      |     
-[34th](./2022/34th/README.md) |      |      |      |      |      |      |     
-[35th](./2022/35th/README.md) |      |      |      |      |      |      |     
-[36th](./2022/36th/README.md) |      |      |      |      |      |      |     
-[37th](./2022/37th/README.md) |      |      |      |      |      |      |     
-[38th](./2022/38th/README.md) |      |      |      |      |      |      |     
-[39th](./2022/39th/README.md) |      |      |      |      |      |      |     
-[40th](./2022/40th/README.md) |      |      |      |      |      |      |     
-[41st](./2022/41st/README.md) |      |      |      |      |      |      |      
-[42nd](./2022/42nd/README.md) |      |      |      |      |      |      |     
-[43rd](./2022/43rd/README.md) |      |      |      |      |      |      |     
-[44th](./2022/44th/README.md) |      |      |      |      |      |      |     
-[45th](./2022/45th/README.md) |      |      |      |      |      |      |     
-[46th](./2022/46th/README.md) |      |      |      |      |      |      |     
-[47th](./2022/47th/README.md) |      |      |      |      |      |      |     
-[48th](./2022/48th/README.md) |      |      |      |      |      |      |     
-[49th](./2022/49th/README.md) |      |      |      |      |      |      |     
-[50th](./2022/50th/README.md) |      |      |      |      |      |      |     
-[51st](./2022/51st/README.md) |      |      |      |      |      |      |     
-[52nd](./2022/52nd/README.md) |      |      |      |      |      |      |     
-[53rd](./2022/53nd/README.md) |      |      |      |      |      |      |
+WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE |
+----                          | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+[01st](./2022/01st/README.md) |      |      |      |      |      | DONE |      |      |
+[02nd](./2022/02nd/README.md) |      |      |      |      |      |      |      |      |
+[03rd](./2022/03rd/README.md) |      |      |      |      |      |      |      |      |
+[04th](./2022/04th/README.md) |      |      |      |      |      |      |      |      |
+[05th](./2022/05th/README.md) |      |      |      |      |      |      |      |      |
+[06th](./2022/06th/README.md) |      |      |      |      |      |      |      |      |
+[07th](./2022/07th/README.md) |      |      |      |      |      |      |      |      |
+[08th](./2022/08th/README.md) |      |      |      |      |      |      |      |      |
+[09th](./2022/09th/README.md) |      |      |      |      |      |      |      |      |
+[10th](./2022/10th/README.md) |      |      |      |      |      |      |      |      |
+[11st](./2022/11st/README.md) |      |      |      |      |      |      |      |      |
+[12nd](./2022/12nd/README.md) |      |      |      |      |      |      |      |      |
+[13rd](./2022/13rd/README.md) |      |      |      |      |      |      |      |      |
+[14th](./2022/14th/README.md) |      |      |      |      |      |      |      |      |
+[15th](./2022/15th/README.md) |      |      |      |      |      |      |      |      |
+[16th](./2022/16th/README.md) |      |      |      |      |      |      |      |      |
+[17th](./2022/17th/README.md) |      |      |      |      |      |      |      |      |
+[18th](./2022/18th/README.md) |      |      |      |      |      |      |      |      |
+[19th](./2022/19th/README.md) |      |      |      |      |      |      |      |      |
+[20th](./2022/20th/README.md) |      |      |      |      |      |      |      |      |
+[21st](./2022/21st/README.md) |      |      |      |      |      |      |      |      |
+[22nd](./2022/22nd/README.md) |      |      |      |      |      |      |      |      |
+[23rd](./2022/23rd/README.md) |      |      |      |      |      |      |      |      |
+[24th](./2022/24th/README.md) |      |      |      |      |      |      |      |      |
+[25th](./2022/25th/README.md) |      |      |      |      |      |      |      |      |
+[26th](./2022/26th/README.md) |      |      |      |      |      |      |      |      |
+[27th](./2022/27th/README.md) |      |      |      |      |      |      |      |      |
+[28th](./2022/28th/README.md) |      |      |      |      |      |      |      |      |
+[29th](./2022/29th/README.md) |      |      |      |      |      |      |      |      |
+[30th](./2022/30th/README.md) |      |      |      |      |      |      |      |      |
+[31st](./2022/31st/README.md) |      |      |      |      |      |      |      |      |
+[32nd](./2022/32nd/README.md) |      |      |      |      |      |      |      |      |
+[33rd](./2022/33rd/README.md) |      |      |      |      |      |      |      |      |
+[34th](./2022/34th/README.md) |      |      |      |      |      |      |      |      |
+[35th](./2022/35th/README.md) |      |      |      |      |      |      |      |      |
+[36th](./2022/36th/README.md) |      |      |      |      |      |      |      |      |
+[37th](./2022/37th/README.md) |      |      |      |      |      |      |      |      |
+[38th](./2022/38th/README.md) |      |      |      |      |      |      |      |      |
+[39th](./2022/39th/README.md) |      |      |      |      |      |      |      |      |
+[40th](./2022/40th/README.md) |      |      |      |      |      |      |      |      |
+[41st](./2022/41st/README.md) |      |      |      |      |      |      |      |      |
+[42nd](./2022/42nd/README.md) |      |      |      |      |      |      |      |      |
+[43rd](./2022/43rd/README.md) |      |      |      |      |      |      |      |      |
+[44th](./2022/44th/README.md) |      |      |      |      |      |      |      |      |
+[45th](./2022/45th/README.md) |      |      |      |      |      |      |      |      |
+[46th](./2022/46th/README.md) |      |      |      |      |      |      |      |      |
+[47th](./2022/47th/README.md) |      |      |      |      |      |      |      |      |
+[48th](./2022/48th/README.md) |      |      |      |      |      |      |      |      |
+[49th](./2022/49th/README.md) |      |      |      |      |      |      |      |      |
+[50th](./2022/50th/README.md) |      |      |      |      |      |      |      |      |
+[51st](./2022/51st/README.md) |      |      |      |      |      |      |      |      |
+[52nd](./2022/52nd/README.md) |      |      |      |      |      |      |      |      |
+[53rd](./2022/53nd/README.md) |      |      |      |      |      |      |      |      |
 
 # 2021
 WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE |
@@ -108,7 +108,7 @@ WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  |
 [41st](./2021/41st/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE |🥇🥇🥇|
 [42nd](./2021/42nd/README.md) | DONE |      | DONE | DONE | DONE | DONE | DONE |🥈🥈🥈|
 [43rd](./2021/43rd/README.md) |      | DONE | DONE | DONE | DONE | DONE | DONE |🥈🥈🥈|
-[44th](./2021/44th/README.md) | DONE | DONE | DONE |      |      | DONE | DONE |🥈🥈🥈|
+[44th](./2021/44th/README.md) | DONE | DONE | DONE |      |      | DONE | DONE |🥉🥉🥉|
 [45th](./2021/45th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE |🥇🥇🥇|
 [46th](./2021/46th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE |🥇🥇🥇|
 [47th](./2021/47th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE |🥇🥇🥇|
