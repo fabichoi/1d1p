@@ -9,7 +9,7 @@ Master branch will be released every sunday. <br>
 | WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE   |
 |-------------------------------|------|------|------|------|------|------|------|--------|
 | [01st](./2022/01st/README.md) |      |      |      |      |      | DONE | DONE | 🥇🥇🥇 |
-| [02nd](./2022/02nd/README.md) | DONE | DONE | DONE | DONE | DONE | DONE |      |        |
+| [02nd](./2022/02nd/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | [03rd](./2022/03rd/README.md) |      |      |      |      |      |      |      |        |
 | [04th](./2022/04th/README.md) |      |      |      |      |      |      |      |        |
 | [05th](./2022/05th/README.md) |      |      |      |      |      |      |      |        |
@@ -60,7 +60,7 @@ Master branch will be released every sunday. <br>
 | [50th](./2022/50th/README.md) |      |      |      |      |      |      |      |        |
 | [51st](./2022/51st/README.md) |      |      |      |      |      |      |      |        |
 | [52nd](./2022/52nd/README.md) |      |      |      |      |      |      |      |        |
-| [53rd](./2022/53nd/README.md) |      |      |      |      |      |      |      |        |
+| [53rd](./2022/53rd/README.md) |      |      |      |      |      |      |      |        |
 
 # 2021
 | WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE   |
@@ -117,7 +117,7 @@ Master branch will be released every sunday. <br>
 | [50th](./2021/50th/README.md) |      | DONE | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
 | [51st](./2021/51st/README.md) | DONE | DONE | DONE | DONE | DONE |      | DONE | 🥈🥈🥈 |
 | [52nd](./2021/52nd/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
-| [53rd](./2021/53nd/README.md) | DONE | DONE | DONE |      | DONE |      |      | 🥈🥈🥈 |
+| [53rd](./2021/53rd/README.md) | DONE | DONE | DONE |      | DONE |      |      | 🥈🥈🥈 |
 
 ------------------------------------------------------
 
