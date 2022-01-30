@@ -12,7 +12,7 @@ Master branch will be released every sunday. <br>
 | [02nd](./2022/02nd/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | [03rd](./2022/03rd/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | [04th](./2022/04th/README.md) | DONE | DONE | DONE | DONE |      | DONE | DONE | 🥈🥈🥈 |
-| [05th](./2022/05th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE |      |        |
+| [05th](./2022/05th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | [06th](./2022/06th/README.md) |      |      |      |      |      |      |      |        |
 | [07th](./2022/07th/README.md) |      |      |      |      |      |      |      |        |
 | [08th](./2022/08th/README.md) |      |      |      |      |      |      |      |        |
