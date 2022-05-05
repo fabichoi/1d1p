@@ -1,3 +1,96 @@
+# Codeforces Round #787 (Div.3)
+# G
+import sys
+
+input = sys.stdin.readline
+n, m = map(int, input().split())
+ar = list(map(int, input().split()))
+
+res = 0
+if n == 1:
+    print(0)
+elif n == 2:
+    if ar[0] >= ar[1]:
+        print(0)
+    else:
+        for _ in range(ar[1]):
+            if ar[0] >= ar[1]:
+                break
+            ar[0] += 1
+            ar[1] -= 1
+            res += 1
+        print(res)
+else:
+    for i in range(0, len(ar)-1):
+        for _ in range(250):
+            if ar[i] >= ar[i+1]:
+                break
+            ar[i] += 1
+            ar[i+1] -= 1
+            res += 1
+    print(res)
+
+
+
+'''
+# B
+import sys
+
+input = sys.stdin.readline
+for _ in range(int(input())):
+    n = int(input())
+    ar = list(map(int, input().split()))
+
+    res = 0
+    if n == 1:
+        print(0)
+        continue
+    if n == 2:
+        if ar[1] == 0:
+            print(-1)
+            continue
+        for _ in range(31):
+            if ar[0] < ar[1]:
+                break
+            ar[0] = int(ar[0] / 2)
+            res += 1
+        print(res)
+        continue
+
+    impossible = False
+    for i in range(len(ar) - 1, 0, -1):
+        for _ in range(31):
+            if ar[i - 1] < ar[i]:
+                break
+            ar[i - 1] = int(ar[i - 1] / 2)
+            res += 1
+
+    for i in range(len(ar) - 1):
+        if ar[i + 1] <= ar[i]:
+            impossible = True
+            break
+
+    if impossible:
+        print(-1)
+        continue
+    print(res)
+'''
+
+'''
+# A
+import sys
+input = sys.stdin.readline
+for _ in range(int(input())):
+    a, b, c, x, y = map(int, input().split())
+    a -= x
+    b -= y
+    if c + a >= 0 and c + b >= 0 and c + a + b >= 0:
+        print('YES')
+        continue
+    print('NO')
+'''
+
+'''
 # BOJ 1951
 ar = [(0, 0, 0)]
 for i in range(10):
@@ -16,7 +109,7 @@ for i in range(10, 0, -1):
         res = (res + ar[i-1][2]) % mod
         break
 print(res)
-
+'''
 
 '''
 # BOJ 2417
