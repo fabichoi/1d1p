@@ -1,3 +1,21 @@
+# BOJ 1699
+import sys
+
+input = sys.stdin.readline
+n = int(input())
+m = 2
+dp = [_ for _ in range(n + 1)]
+
+for i in range(4, n + 1):
+    j = 2
+    while j * j <= i:
+        if dp[i] > dp[i - j * j] + 1:
+            dp[i] = dp[i - j * j] + 1
+        j += 1
+
+print(dp[n])
+
+'''
 # Codeforces Round #787 (Div.3)
 # G
 import sys
@@ -29,9 +47,7 @@ else:
             ar[i+1] -= 1
             res += 1
     print(res)
-
-
-
+'''
 '''
 # B
 import sys
