@@ -1,3 +1,57 @@
+# BOJ 4419
+import sys
+
+n = int(input())
+b, c = [], ['']
+for _ in range(n):
+    c.append(input().rstrip())
+
+nb = 0
+while True:
+    try:
+        b.append(list(map(int, input().split())))
+        nb += 1
+    except EOFError:
+        break
+
+last = []
+done = False
+for r in range(n):
+    vote = [0 for _ in range(n + 1)]
+
+    while last:
+        vote[last.pop()] += 1
+
+    for i in range(nb):
+        vote[b[i][r]] += 1
+
+    mn = min(vote[1:])
+    mx = max(vote[1:])
+
+    mins = []
+    for i in range(1, n + 1):
+        if vote[i] >= nb / 2:
+            done = True
+            break
+
+        if mx != mn and vote[i] == mn:
+            mins.append(i)
+            c[i] = ''
+
+    if done:
+        print(c[i])
+        break
+
+    for i in range(nb):
+        if b[i][r] in mins and r < n-1:
+            last.append(b[i][r + 1])
+
+if not done:
+    for cc in c:
+        if cc:
+            print(cc)
+
+'''
 # BOJ 1699
 import sys
 
@@ -14,7 +68,7 @@ for i in range(4, n + 1):
         j += 1
 
 print(dp[n])
-
+'''
 '''
 # Codeforces Round #787 (Div.3)
 # G
