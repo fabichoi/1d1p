@@ -1,3 +1,15 @@
+# BOJ 2028
+for _ in range(int(input())):
+    n = input()
+    l = len(n)
+    r = str(int(n) * int(n))
+    if r[len(r)-l:] == n:
+        print('YES')
+        continue
+    print('NO')
+
+
+'''
 # BOJ 1408
 start = list(map(int, input().split(':')))
 end = list(map(int, input().split(':')))
@@ -11,7 +23,7 @@ for i in range(3):
     if int(res[i]) < 10:
         res[i] = '0' + res[i]
 print(':'.join(res))
-
+'''
 '''
 # BOJ 1271
 a, b = map(int, input().split())
