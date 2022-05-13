@@ -1,3 +1,34 @@
+# BOJ 2037
+ar = ['', '', 'ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
+
+
+def get_rept(ch):
+    for i in range(2, 10):
+        if ch in ar[i]:
+            return (i, ar[i].find(ch) + 1)
+
+
+p, w = map(int, input().split(' '))
+s = input()
+if len(s) < 2:
+    print(p * get_rept(s[0]))
+else:
+    res = p * get_rept(s[0])[1]
+    l = len(s)
+    for i in range(1, l):
+        if s[i] == ' ':
+            res += p
+            continue
+        prev = get_rept(s[i - 1])
+        curr = get_rept(s[i])
+        res += p * curr[1]
+        if not prev:
+            continue
+        if prev[0] == curr[0]:
+            res += w
+    print(res)
+
+'''
 # BOJ 2028
 for _ in range(int(input())):
     n = input()
@@ -7,7 +38,7 @@ for _ in range(int(input())):
         print('YES')
         continue
     print('NO')
-
+'''
 
 '''
 # BOJ 1408
