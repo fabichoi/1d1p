@@ -1,3 +1,16 @@
+# BOJ 2010
+import sys
+input = sys.stdin.readline
+res = -1
+for _ in range(int(input())):
+    n = int(input())
+    if res == -1:
+        res = n
+        continue
+    res += n - 1
+
+print(res)
+'''
 # BOJ 2037
 ar = ['', '', 'ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
 
@@ -27,6 +40,7 @@ else:
         if prev[0] == curr[0]:
             res += w
     print(res)
+'''
 
 '''
 # BOJ 2028
