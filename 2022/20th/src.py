@@ -1,3 +1,44 @@
+# BOJ 1996
+import sys
+
+input = sys.stdin.readline
+pos_x = [0, 1, 1, 1, 0, -1, -1, -1]
+pos_y = [-1, -1, 0, 1, 1, 1, 0, -1]
+
+n = int(input())
+board = []
+for _ in range(n):
+    board.append(list(input()))
+res = [[0 for _ in range(n)] for __ in range(n)]
+
+
+def fill_mines(board, x, y):
+    if board[y][x] == '.':
+        return
+    v = int(board[y][x])
+
+    for i in range(8):
+        if x + pos_x[i] < 0 or y + pos_y[i] < 0 or x + pos_x[i] >= n or y + pos_y[i] >= n:
+            continue
+        res[y + pos_y[i]][x + pos_x[i]] += v
+
+
+for y in range(n):
+    for x in range(n):
+        fill_mines(board, x, y)
+
+for y in range(n):
+    for x in range(n):
+        if board[y][x] != '.':
+            res[y][x] = '*'
+        else:
+            if int(res[y][x]) > 9:
+                res[y][x] = 'M'
+
+        print(res[y][x], end='')
+    print('')
+
+'''
 # BOJ 2010
 import sys
 input = sys.stdin.readline
@@ -10,6 +51,8 @@ for _ in range(int(input())):
     res += n - 1
 
 print(res)
+'''
+
 '''
 # BOJ 2037
 ar = ['', '', 'ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
