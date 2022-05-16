@@ -1,3 +1,24 @@
+# BOJ 1975
+import sys
+
+input = sys.stdin.readline
+res = [0 for _ in range(1001)]
+for i in range(2, 1001):
+    for j in range(2, i+1):
+        k = i
+        while k > 0:
+            if k % j == 0:
+                k //= j
+                res[i] += 1
+            else:
+                break
+
+for _ in range(int(input())):
+    print(res[int(input())])
+
+# print('YONSEI') if input() == '0' else print('Leading the Way to the Future')
+
+'''
 # BOJ 1996
 import sys
 
@@ -37,6 +58,7 @@ for y in range(n):
 
         print(res[y][x], end='')
     print('')
+'''
 
 '''
 # BOJ 2010
