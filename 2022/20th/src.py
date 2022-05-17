@@ -1,3 +1,13 @@
+# BOJ 1924
+ar = [0, 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30]
+for i in range(2, 13):
+    ar[i] += ar[i-1]
+r = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
+m, d = map(int, input().split(' '))
+print(r[(ar[m] + d) % 7])
+
+
+'''
 # BOJ 1975
 import sys
 
@@ -15,6 +25,7 @@ for i in range(2, 1001):
 
 for _ in range(int(input())):
     print(res[int(input())])
+'''
 
 # print('YONSEI') if input() == '0' else print('Leading the Way to the Future')
 
