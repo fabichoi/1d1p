@@ -1,3 +1,7 @@
+# BOJ 1919
+
+
+'''
 # BOJ 1924
 ar = [0, 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30]
 for i in range(2, 13):
@@ -5,7 +9,7 @@ for i in range(2, 13):
 r = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
 m, d = map(int, input().split(' '))
 print(r[(ar[m] + d) % 7])
-
+'''
 
 '''
 # BOJ 1975
