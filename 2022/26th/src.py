@@ -1,6 +1,30 @@
+import copy
 from typing import List
 
 
+class Solution:
+    def maxScore(self, cardPoints: List[int], k: int) -> int:
+        a = copy.deepcopy(cardPoints)
+        b = copy.deepcopy(cardPoints)
+        l = len(cardPoints)
+        if l == k:
+            return sum(cardPoints)
+
+        for i in range(1, l):
+            a[i] += a[i - 1]
+            b[l - i - 1] += b[l - i]
+
+        res = max(a[k - 1], b[-k])
+        for i in range(0, k - 1):
+            res = max(res, a[i] + b[(l-(k-i-1))])
+
+        return res
+
+
+s = Solution()
+print(s.maxScore(cardPoints=[100, 40, 17, 9, 73, 75], k=3))
+
+'''
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         rsorted = sorted(nums, reverse=True)
@@ -16,7 +40,7 @@ class Solution:
 s = Solution()
 print(s.checkPossibility(nums=[9, 3, 5]))
 
-'''
+
 import heapq
 from typing import List
 
