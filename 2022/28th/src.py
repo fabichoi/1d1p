@@ -1,3 +1,23 @@
+import math
+from typing import List
+
+
+class Solution:
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        cost += [0]
+        l = len(cost)
+        res = [math.inf] * (l + 1)
+        res[0] = cost[0]
+        res[1] = min(res[0] + cost[1], cost[1])
+        for i in range(2, l):
+            res[i] = min(res[i - 1] + cost[i], res[i - 2] + cost[i])
+        return res[l-1]
+
+
+s = Solution()
+print(s.minCostClimbingStairs([10,15,20]))
+
+'''
 from functools import cache
 
 
@@ -22,7 +42,7 @@ class Solution:
 
 s = Solution()
 print(s.isInterleave("aabc", "abad", "aabadabc"))
-'''
+
 from typing import List
 
 
