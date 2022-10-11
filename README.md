@@ -49,7 +49,7 @@ Master branch will be released every sunday. <br>
 | [39th](./2022/39th/README.md) | DONE | DONE | DONE |      | DONE | DONE | DONE | 🥈🥈🥈 |
 | [40th](./2022/40th/README.md) | DONE | DONE | DONE |      | DONE | DONE | DONE | 🥈🥈🥈 |
 | [41st](./2022/41st/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
-| [42nd](./2022/42nd/README.md) | DONE |      |      |      |      |      |      |        |
+| [42nd](./2022/42nd/README.md) | DONE | DONE |      |      |      |      |      |        |
 | [43rd](./2022/43rd/README.md) |      |      |      |      |      |      |      |        |
 | [44th](./2022/44th/README.md) |      |      |      |      |      |      |      |        |
 | [45th](./2022/45th/README.md) |      |      |      |      |      |      |      |        |
