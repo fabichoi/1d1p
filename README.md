@@ -59,7 +59,7 @@ Master branch will be released every sunday. <br>
 | [49th](./2022/49th/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | [50th](./2022/50th/README.md) | DONE |      | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
 | [51st](./2022/51st/README.md) | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
-| [52nd](./2022/52nd/README.md) | DONE | DONE |      | DONE | DONE |      |      |        |
+| [52nd](./2022/52nd/README.md) | DONE | DONE |      | DONE | DONE | DONE |      |        |
 | [53rd](./2022/53rd/README.md) |      |      |      |      |      |      |      |        |
 
 # 2021
