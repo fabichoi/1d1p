@@ -6,61 +6,61 @@ When I don't have enough time to solve problem, I'd just commit with attendance 
 Master branch will be released every sunday. <br>
 
 # 2023
-| WEEK  | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN   | RATE   |
-|-------|------|------|------|------|------|------|-------|--------|
-| 01st  |      |      |      |      |      |      | DONE  | 🥇🥇🥇 |
-| 02nd  | DONE | DONE | DONE |      | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 03rd  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 04th  | DONE | DONE | DONE | DONE | DONE |      |       | 🥉🥉🥉 |
-| 05th  |      | DONE | DONE | DONE | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 06th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 07th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 08th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 09th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 10th  | DONE |      | DONE | DONE | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 11st  |      | DONE | DONE | DONE | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 12nd  | DONE | DONE |      | DONE | DONE | DONE |       | 🥉🥉🥉 |
-| 13rd  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 14th  | DONE | DONE | DONE |      | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 15th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 16th  | DONE | DONE | DONE | DONE |      |      | DONE  | 🥉🥉🥉 |
-| 17th  | DONE | DONE | DONE |      | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 18th  | DONE | DONE | DONE |      | DONE |      |       | 🥉🥉🥉 |
-| 19th  | DONE |      |      | DONE |      |      |       | 🥉🥉🥉 |
-| 20th  |      |      | DONE |      | DONE | DONE | DONE  | 🥉🥉🥉 |
-| 21st  |      |      | DONE | DONE |      |      | DONE  | 🥉🥉🥉 |
-| 22nd  | DONE | DONE | DONE | DONE | DONE | DONE |       | 🥈🥈🥈 |
-| 23rd  | DONE | DONE |      | DONE | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 24th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE  | 🥇🥇🥇 |
-| 25th  |      | DONE |      | DONE | DONE | DONE | DONE  | 🥉🥉🥉 |
-| 26th  | DONE | DONE |      |      | DONE |      |       | 🥉🥉🥉 |
-| 27th  |      | DONE | DONE | DONE | DONE |      | DONE  | 🥉🥉🥉 |
-| 28th  | DONE |      |      | DONE | DONE | DONE | DONE  | 🥉🥉🥉 |
-| 29th  | DONE | DONE |      |      | DONE |      | DONE  | 🥉🥉🥉 |
-| 30th  | DONE |      | DONE | DONE | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 31st  | DONE | DONE | DONE |      | DONE | DONE | DONE  | 🥈🥈🥈 |
-| 32nd  | DONE |      |      |      | DONE |      | DONE  | 🥉🥉🥉 |
-| 33rd  | DONE | DONE |      | DONE | DONE | DONE |       |        |
-| 34th  |      |      |      |      |      |      |       |        |
-| 35th  |      |      |      |      |      |      |       |        |
-| 36th  |      |      |      |      |      |      |       |        |
-| 37th  |      |      |      |      |      |      |       |        |
-| 38th  |      |      |      |      |      |      |       |        |
-| 39th  |      |      |      |      |      |      |       |        |
-| 40th  |      |      |      |      |      |      |       |        |
-| 41st  |      |      |      |      |      |      |       |        |
-| 42nd  |      |      |      |      |      |      |       |        |
-| 43rd  |      |      |      |      |      |      |       |        |
-| 44st  |      |      |      |      |      |      |       |        |
-| 45st  |      |      |      |      |      |      |       |        |
-| 46st  |      |      |      |      |      |      |       |        |
-| 47st  |      |      |      |      |      |      |       |        |
-| 48st  |      |      |      |      |      |      |       |        |
-| 49st  |      |      |      |      |      |      |       |        |
-| 50st  |      |      |      |      |      |      |       |        |
-| 51st  |      |      |      |      |      |      |       |        |
-| 52nd  |      |      |      |      |      |      |       |        |
-| 53rd  |      |      |      |      |      |      |       |        |
+| WEEK  | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE   |
+|-------|------|------|------|------|------|------|------|--------|
+| 01st  |      |      |      |      |      |      | DONE | 🥇🥇🥇 |
+| 02nd  | DONE | DONE | DONE |      | DONE | DONE | DONE | 🥈🥈🥈 |
+| 03rd  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 04th  | DONE | DONE | DONE | DONE | DONE |      |      | 🥉🥉🥉 |
+| 05th  |      | DONE | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
+| 06th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 07th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 08th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 09th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 10th  | DONE |      | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
+| 11st  |      | DONE | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
+| 12nd  | DONE | DONE |      | DONE | DONE | DONE |      | 🥉🥉🥉 |
+| 13rd  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 14th  | DONE | DONE | DONE |      | DONE | DONE | DONE | 🥈🥈🥈 |
+| 15th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 16th  | DONE | DONE | DONE | DONE |      |      | DONE | 🥉🥉🥉 |
+| 17th  | DONE | DONE | DONE |      | DONE | DONE | DONE | 🥈🥈🥈 |
+| 18th  | DONE | DONE | DONE |      | DONE |      |      | 🥉🥉🥉 |
+| 19th  | DONE |      |      | DONE |      |      |      | 🥉🥉🥉 |
+| 20th  |      |      | DONE |      | DONE | DONE | DONE | 🥉🥉🥉 |
+| 21st  |      |      | DONE | DONE |      |      | DONE | 🥉🥉🥉 |
+| 22nd  | DONE | DONE | DONE | DONE | DONE | DONE |      | 🥈🥈🥈 |
+| 23rd  | DONE | DONE |      | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
+| 24th  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 25th  |      | DONE |      | DONE | DONE | DONE | DONE | 🥉🥉🥉 |
+| 26th  | DONE | DONE |      |      | DONE |      |      | 🥉🥉🥉 |
+| 27th  |      | DONE | DONE | DONE | DONE |      | DONE | 🥉🥉🥉 |
+| 28th  | DONE |      |      | DONE | DONE | DONE | DONE | 🥉🥉🥉 |
+| 29th  | DONE | DONE |      |      | DONE |      | DONE | 🥉🥉🥉 |
+| 30th  | DONE |      | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
+| 31st  | DONE | DONE | DONE |      | DONE | DONE | DONE | 🥈🥈🥈 |
+| 32nd  | DONE |      |      |      | DONE |      | DONE | 🥉🥉🥉 |
+| 33rd  | DONE | DONE |      | DONE | DONE | DONE | DONE |        |
+| 34th  |      |      |      |      |      |      |      |        |
+| 35th  |      |      |      |      |      |      |      |        |
+| 36th  |      |      |      |      |      |      |      |        |
+| 37th  |      |      |      |      |      |      |      |        |
+| 38th  |      |      |      |      |      |      |      |        |
+| 39th  |      |      |      |      |      |      |      |        |
+| 40th  |      |      |      |      |      |      |      |        |
+| 41st  |      |      |      |      |      |      |      |        |
+| 42nd  |      |      |      |      |      |      |      |        |
+| 43rd  |      |      |      |      |      |      |      |        |
+| 44st  |      |      |      |      |      |      |      |        |
+| 45st  |      |      |      |      |      |      |      |        |
+| 46st  |      |      |      |      |      |      |      |        |
+| 47st  |      |      |      |      |      |      |      |        |
+| 48st  |      |      |      |      |      |      |      |        |
+| 49st  |      |      |      |      |      |      |      |        |
+| 50st  |      |      |      |      |      |      |      |        |
+| 51st  |      |      |      |      |      |      |      |        |
+| 52nd  |      |      |      |      |      |      |      |        |
+| 53rd  |      |      |      |      |      |      |      |        |
 
 # 2022
 | WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE   |
