@@ -60,7 +60,7 @@ Master branch will be released every sunday. <br>
 | 50st  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | 51st  | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | 52nd  | DONE | DONE | DONE | DONE | DONE | DONE |      | 🥈🥈🥈 |
-| 53rd  | DONE | DONE | DONE |      |      |      |      |        |
+| 53rd  | DONE | DONE | DONE | DONE |      |      |      |        |
 
 # 2022
 | WEEK                          | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE   |
