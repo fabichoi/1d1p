@@ -18,7 +18,7 @@ Master branch will be released every sunday. <br>
 | 08th | DONE | DONE | DONE | DONE | DONE | DONE |      | 🥈🥈🥈 |
 | 09th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
 | 10th | DONE | DONE |      | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
-| 11st | DONE |      |      |      |      |      |      |        |
+| 11st | DONE | DONE |      |      |      |      |      |        |
 | 12nd |      |      |      |      |      |      |      |        |
 | 13rd |      |      |      |      |      |      |      |        |
 | 14th |      |      |      |      |      |      |      |        |
