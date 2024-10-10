@@ -48,7 +48,7 @@ Master branch will be released every sunday. <br>
 | 38th |      | DONE |      | DONE | DONE |      |      | 🥉🥉🥉 |
 | 39th |      | DONE | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
 | 40th | DONE | DONE |      | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
-| 41st | DONE |      | DONE | DONE |      |      |      |        |
+| 41st | DONE |      | DONE | DONE | DONE |      |      |        |
 | 42nd |      |      |      |      |      |      |      |        |
 | 43rd |      |      |      |      |      |      |      |        |
 | 44st |      |      |      |      |      |      |      |        |
