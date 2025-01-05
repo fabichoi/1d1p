@@ -8,7 +8,7 @@ Master branch will be released every sunday. <br>
 # 2025
 | WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE   |
 |------|------|------|------|------|------|------|------|--------|
-| 01st | DONE |      |      |      | DONE | DONE |      |        |
+| 01st | DONE |      |      |      | DONE | DONE | DONE | 🥉🥉🥉 |
 | 02nd |      |      |      |      |      |      |      |        |
 | 03rd |      |      |      |      |      |      |      |        |
 | 04th |      |      |      |      |      |      |      |        |
