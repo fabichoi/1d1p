@@ -6,6 +6,15 @@ def solution(graph, start):
         adj_list[u].append(v)
 
     def dfs(node, visited, result):
+        visited.add(node)
+        result.append(node)
+        for neighbor in adj_list.get(node, []):
+            if neighbor not in visited:
+                dfs(neighbor, visited, result)
+
+    visited, result = set(), list()
+    dfs(start, visited, result)
+    return result
 
 
 if __name__ == '__main__':
