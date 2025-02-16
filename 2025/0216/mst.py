@@ -3,6 +3,7 @@ def find(parent, i):
         return i
     return find(parent, parent[i])
 
+
 def union(parent, rank, x, y):
     xroot, yroot = find(parent, x), find(parent, y)
 
@@ -17,9 +18,23 @@ def union(parent, rank, x, y):
     parent[yroot] = xroot
     rank[xroot] += 1
 
+
 def solution(n, costs):
     costs.sort(key=lambda x: x[2])
     parent, rank, min_cost, edges = [i for i in range(n)], [0 for _ in range(n)], 0, 0
+
+    for edge in costs:
+        if edges == n - 1:
+            break
+
+        x, y = find(parent, edge[0]), find(parent, edge[1])
+
+        if x != y:
+            union(parent, rank, x, y)
+            min_cost += edge[2]
+            edges += 1
+
+    return min_cost
 
 
 if __name__ == '__main__':
