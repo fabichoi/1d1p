@@ -9,23 +9,23 @@ Master branch will be released every sunday. <br>
 | WEEK | MON  | TUE  | WED  | THU  | FRI  | SAT  | SUN  | RATE   |
 |------|------|------|------|------|------|------|------|--------|
 | 01st | DONE |      |      |      | DONE | DONE | DONE | 🥉🥉🥉 |
-| 02nd | DONE | DONE | DONE | DONE |      |      |      |        |
-| 03rd |      |      |      |      |      |      |      |        |
-| 04th |      |      |      |      |      |      |      |        |
-| 05th |      |      |      |      |      |      |      |        |
-| 06th |      |      |      |      |      |      |      |        |
-| 07th |      |      |      |      |      |      |      |        |
-| 08th |      |      |      |      |      |      |      |        |
-| 09th |      |      |      |      |      |      |      |        |
-| 10th |      |      |      |      |      |      |      |        |
-| 11st |      |      |      |      |      |      |      |        |
-| 12nd |      |      |      |      |      |      |      |        |
-| 13rd |      |      |      |      |      |      |      |        |
-| 14th |      |      |      |      |      |      |      |        |
-| 15th |      |      |      |      |      |      |      |        |
-| 16th |      |      |      |      |      |      |      |        |
-| 17th |      |      |      |      |      |      |      |        |
-| 18th |      |      |      |      |      |      |      |        |
+| 02nd | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 03rd | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 04th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 05th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 06th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 07th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 08th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 | 
+| 09th | DONE | DONE | DONE | DONE | DONE | DONE |      | 🥈🥈🥈 |
+| 10th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 11st | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 12nd | DONE | DONE | DONE | DONE | DONE |      | DONE | 🥈🥈🥈 |
+| 13rd | DONE | DONE | DONE |      |      | DONE | DONE | 🥉🥉🥉 |
+| 14th | DONE |      | DONE | DONE | DONE | DONE | DONE | 🥈🥈🥈 |
+| 15th | DONE | DONE | DONE | DONE |      | DONE | DONE | 🥈🥈🥈 |
+| 16th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 17th | DONE | DONE | DONE | DONE | DONE | DONE | DONE | 🥇🥇🥇 |
+| 18th | DONE | DONE | DONE | DONE |      |      |      |        |
 | 19th |      |      |      |      |      |      |      |        |
 | 20th |      |      |      |      |      |      |      |        |
 | 21st |      |      |      |      |      |      |      |        |
