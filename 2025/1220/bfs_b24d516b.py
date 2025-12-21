@@ -1,5 +1,11 @@
 from collections import defaultdict, deque
 
+def solution(graph, start):
+    adj_list = defaultdict(list)
+    for u, v in graph:
+        adj_list[u].append(v)
+
+
 
 if __name__ == '__main__':
     assert (solution([(1, 2), (1, 3), (2, 4), (2, 5), (3, 6), (3, 7), (4, 8), (5, 8), (6, 9), (7, 9)], 1)
