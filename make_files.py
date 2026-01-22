@@ -59,4 +59,4 @@ def main(path):
 
 
 if __name__ == "__main__":
-    main(path='./2025/')
+    main(path='./2026/')
